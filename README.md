@@ -16,5 +16,5 @@ Click the button below to import the Postman collection:
 ## Setup Instructions
 1. Clone this repository:
    ```sh
-   [git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/Younes-Yassine/CSC3916_Assignment0)
+   https://github.com/Younes-Yassine/CSC3916_Assignment0
 
