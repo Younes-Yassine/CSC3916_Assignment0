@@ -1,0 +1,21 @@
+# HTTP Headers Analysis - Assignment 0 - Younes Yassine
+
+## Request 1: Book Search (GET /volumes?q=Turing)
+### Request Headers:
+- **User-Agent**: Identifies the client (PostmanRuntime).
+- **Accept**: Allows any response type.
+- **Postman-Token**: Unique ID for the request.
+- **Host**: API server domain.
+- **Accept-Encoding**: Supports compressed responses.
+- **Connection**: Keeps connection open.
+
+### Response Headers:
+- **Content-Type**: Response format (JSON, UTF-8).
+- **Vary**: Response may change based on origin or referer.
+- **Content-Encoding**: Response is compressed (gzip).
+- **Date**: Timestamp of the response.
+- **Server**: Google’s API server.
+- **X-XSS-Protection**: Disables XSS protection.
+- **X-Frame-Options**: Prevents iframe embedding.
+- **X-Content-Type-Options**: Enforces correct MIME type.
+- **Transfer-Encoding**: Response is sent in chunks.
